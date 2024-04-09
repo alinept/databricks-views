@@ -61,4 +61,17 @@ SHOW TABLES IN global_temp
 
 -- COMMAND ----------
 
+DROP TABLE smartphones;
+
+-- COMMAND ----------
+
+DROP VIEW view_apple_phones;
+
+-- COMMAND ----------
+
+DROP TABLE temp_view_phone_brands; --dropped also when session ends 
+DROP TABLE global_temp.global_temp_view_latest_phones; --dropped also when cluster restarts
+
+-- COMMAND ----------
+
 
